@@ -1,0 +1,8 @@
+[
+  { "link": "Home", "url": "/" },
+  { "link": "Why Verso", "url": "/about" },
+  { "link": "Team", "url": "/team" },
+  { "link": "Roadmap", "url": "/raodmap" },
+  { "link": "Blog", "url": "/blog" },
+  { "link": "Whitepaper", "url": "/whitepaper" }
+]
