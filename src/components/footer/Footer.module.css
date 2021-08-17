@@ -1,0 +1,30 @@
+.footer {
+  background-color: rgba(0, 96, 224, 1);
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  width: 1000px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.footer__socialList {
+  display: flex;
+  align-items: flex-end;
+}
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
