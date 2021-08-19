@@ -1,0 +1,44 @@
+[
+  {
+    "id": "id-1",
+    "stakingPool": "Liquidity for DWETH-VSO",
+    "earn": "VSO",
+    "apy": "65%",
+    "remarks": "DWETH is a wrapped ETH version on Avalanche, provided by DCTDAO (Ethereum - Avalanche Cross-Chain bridge)"
+  },
+  {
+    "id": "id-2",
+    "stakingPool": "Liquidity for AVAX-VSO",
+    "earn": "PNG",
+    "apy": "12%",
+    "remarks": " "
+  },
+  {
+    "id": "id-3",
+    "stakingPool": "Liquidity for PNG-VSO",
+    "earn": "PNG",
+    "apy": "63%",
+    "remarks": " "
+  },
+  {
+    "id": "id-4",
+    "stakingPool": "Liquidity for WAVAX-VSO",
+    "earn": "PNG+JOE",
+    "apy": "402%",
+    "remarks": "Double-Reward farm"
+  },
+  {
+    "id": "id-5",
+    "stakingPool": "Stake VSO",
+    "earn": "VSO",
+    "apy": "99%",
+    "remarks": " "
+  },
+  {
+    "id": "id-6",
+    "stakingPool": "Stake + Lock VSO",
+    "earn": "VSO",
+    "apy": ">200%",
+    "remarks": "Launching soon"
+  }
+]
