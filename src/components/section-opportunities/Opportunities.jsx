@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import s from "./Opportunities.module.css";
 
 const Opportunities = ({ items }) => {
@@ -36,6 +37,18 @@ const Opportunities = ({ items }) => {
       </p>
     </section>
   );
+};
+
+Opportunities.propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      stakingPool: PropTypes.string.isRequired,
+      earn: PropTypes.string.isRequired,
+      apy: PropTypes.string.isRequired,
+      remarks: PropTypes.string.isRequired,
+    })
+  ),
 };
 
 export default Opportunities;
