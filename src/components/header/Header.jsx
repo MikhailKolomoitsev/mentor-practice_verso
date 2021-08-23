@@ -1,5 +1,5 @@
 import styles from "./header.module.css";
-// import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 import logo from "../../images/Logo.svg";
 
 const Header = ({ linksArr }) => {
@@ -19,10 +19,16 @@ const Header = ({ linksArr }) => {
             </li>
           ))}
         </ul>
-        <button type="button" className={styles.button}>Buy $VSO</button>
+        <button type="button" className={styles.button}>
+          Buy $VSO
+        </button>
       </div>
     </header>
   );
+};
+
+Header.propTypes = {
+  linksArr: PropTypes.array.isRequired,
 };
 
 export default Header;
