@@ -1,6 +1,11 @@
 .footer {
   background-color: rgba(0, 96, 224, 1);
   padding: 70px 0;
+  width: 100vw;
+}
+a {
+  text-decoration: none;
+  color: #fff;
 }
 .logo {
   height: 28px;

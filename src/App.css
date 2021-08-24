@@ -17,8 +17,6 @@ h2,
 h3,
 h4,
 p,
-ul[class],
-ol[class],
 li,
 figure,
 figcaption,
@@ -68,7 +66,6 @@ select {
 
 .App {
   text-align: center;
-  width: 1140px;
   margin: 0 auto;
 }
 
