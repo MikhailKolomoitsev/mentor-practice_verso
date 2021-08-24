@@ -1,0 +1,45 @@
+.header {
+  background-color: #0773fa;
+  margin: auto;
+}
+/* .fonts{
+    
+    font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 180%; спросить у ментора как сделать contains
+} */
+.container {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.stats {
+  list-style: none;
+  display: flex;
+  width: 560px;
+  justify-content: space-between;
+  padding: 0;
+}
+.stat {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: center;
+}
+
+.button {
+  width: 135px;
+  height: 39px;
+  border-radius: 7px;
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
