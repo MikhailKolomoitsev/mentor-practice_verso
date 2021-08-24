@@ -6,6 +6,7 @@
 a {
   text-decoration: none;
   color: #fff;
+  font-family: "DM Sans";
 }
 .logo {
   height: 28px;
@@ -14,6 +15,7 @@ a {
   margin-bottom: 70px;
 }
 .footer__content {
+  font-family: "DM Sans";
   color: #fff;
   display: flex;
   justify-content: space-around;
@@ -33,6 +35,7 @@ a {
   margin-right: 40px;
 }
 .footer__copyright {
+  font-family: "DM Sans";
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -44,7 +47,8 @@ a {
   justify-content: flex-end;
 }
 .form__title {
-  width: 158px;
+  font-family: "DM Sans";
+  width: 180px;
   text-align: left;
   letter-spacing: -0.3px;
   font-weight: 400;
@@ -53,6 +57,7 @@ a {
   margin-bottom: 40px;
 }
 .form__input {
+  font-family: "DM Sans";
   width: 340px;
   background-color: transparent;
   border-color: transparent;
@@ -78,6 +83,7 @@ ul {
   padding: 0;
 }
 .copyright {
+  font-family: "DM Sans";
   color: rgba(255, 255, 255, 0.5);
 }
 .footer__list_item:not(:last-child) {
