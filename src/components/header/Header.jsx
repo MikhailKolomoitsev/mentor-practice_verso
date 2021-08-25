@@ -6,7 +6,6 @@ const Header = ({ linksArr }) => {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        {" "}
         <a href="/">
           <img src={logo} alt="SiteLogo" />
         </a>
