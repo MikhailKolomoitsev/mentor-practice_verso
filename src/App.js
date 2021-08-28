@@ -5,7 +5,7 @@ import Footer from "./components/footer/Footer.jsx";
 import { Hero } from "./components/hero/Hero.jsx";
 
 import ScrollButton from "./components/ScrollButton/ScrollButton";
-import Pexels from "./components/Pexels/Pexels";
+import Pexels from "./components/Pexels/PexelsLibriary";
 
 import Opportunities from "./components/section-opportunities/Opportunities";
 import dataTable from "./components/section-opportunities/dataTable.json";
