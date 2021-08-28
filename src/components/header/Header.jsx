@@ -11,7 +11,7 @@ const Header = ({ linksArr }) => {
         </a>
         <ul className={styles.stats}>
           {linksArr.map(({ link, url }) => (
-            <li>
+            <li key={url}>
               <a href={url} className={styles.stat}>
                 {link}
               </a>
